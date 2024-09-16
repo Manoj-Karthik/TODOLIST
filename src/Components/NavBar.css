@@ -1,0 +1,32 @@
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Navbar list styling */
+.navbar__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navbar item styling */
+.navbar__item {
+    margin: 0 20px;
+}
+
+/* Navbar link styling */
+.navbar__link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar__link:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
